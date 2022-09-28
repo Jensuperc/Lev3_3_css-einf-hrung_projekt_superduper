@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'GildaDisplay-Regular';
+    src: url(../fonts/GildaDisplay-Regular.ttf);
+    font-weight: 0;
+}
+
+@font-face {
+    font-family: 'MavenPro-Medium';
+    src: url(../fonts/MavenPro-Medium.ttf);
+    font-weight: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body p {
+    font-family: 'MavenPro-Medium';
+}
+
+body h1 {
+    font-family: 'GildaDisplay-Regular';
+}
+
+body a {
+    font-family: 'MavenPro-Medium';
+}
+
+header {
+    padding: 90px 60px;
+    background-color: #333;
+}
+
+header .radiant {
+    background: linear-gradient(45deg, #8507e1, #3dc8d5);
+    width: 300px;
+    border-radius: 10px;
+    margin: 30px auto 35vh auto;
+    padding: 20px;
+}
+
+header .radiant:hover {
+    background: linear-gradient(45deg, #3dc8d5, #8507e1);
+}
+
+header .radiant h1 {
+    text-align: center;
+    font-size: 70px;
+    padding-bottom: 50px;
+}
+
+header .radiant p {
+    text-align: left;
+
+}
+
+header nav ul {
+    font-size: 20px;
+    text-align: right;
+    list-style-type: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #cccccc;
+    font-family: 'MavenPro-Medium';
+}
+
+header nav ul li a:hover {
+    color: white;
+}
+
+/*=== SECTION===*/
+
+main section {
+    background: no-repeat;
+    margin: 200px 80px 0px 80px;
+    background-image: url("https://assets.website-files.com/5c8834f1555981170b2fd8b1/5c898cd67456ffcba141a5ff_PROJECTS.svg");
+}
+
+main section .box1 {
+    width: 30%;
+    /* height: 400px; */
+    padding-top: 80px;
+    padding-bottom: 260px;
+}
+
+main section h1 {
+    font-size: 70px;
+}
+
+main section p:nth-of-type(1) {
+    padding-bottom: 30px;
+}
+
+/*BILD EINS PLATZHALTER für weitere bilder etc*/
+
+main section img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.bild1,
+.bild2,
+.bild3 {
+    margin: 150px auto;
+    width: 70%;
+}
